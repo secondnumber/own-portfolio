@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: local("Inconsolata"),
+    url("./assets/fonts/Inconsolata-Regular.woff") format("woff"),
+    url("./assets/fonts/Inconsolata-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: local("Inconsolata"),
+    url("./assets/fonts/Inconsolata-Bold.woff") format("woff"),
+    url("./assets/fonts/Inconsolata-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display"),
+    url("./assets/fonts/PlayfairDisplay-Bold.woff") format("woff"),
+    url("./assets/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.html {
+    overflow: auto;
+}
+
+body {
+    font-family: 'Inconsolata', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: hsla(0, 0%, 16%, 1);
+    color: white;
+    overflow-y: scroll;
+    scrollbar-base-color: hsla(0, 0%, 8%, 1);
+    scrollbar-face-color: hsla(0, 0%, 19%, 1);
+}
+
+::-webkit-scrollbar {
+    background-color: hsla(0, 0%, 8%, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 19%, 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsla(172, 85%, 44%, 1);
+}
